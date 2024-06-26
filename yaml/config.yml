@@ -9,10 +9,10 @@
   payload: <INSERT YOU JSON PAYLOAD>
   ## OPTIONAL. You can set the HEADERS here. NOTE THAT THE fields `key` and `value` must be present if this HEADERS object is specified. Also note that the `key` and `value` is a list, so you can specify multiple headers.
   headers:
-    - key: moj
-      value: "88"
-    - key: tvoj
-      value: tri
+    - key: key1
+      value: val1
+    - key: key2
+      value: val2
   ## SINCE THIS YAML FILE IS AN ARRAY YOU CAN SEE THAT WE HAVE THE SAME SCHEMA BELOW (BUT WE'VE REMOVED THE PAYLOAD AND HEADERS)
 - url: <INSERT HTTP OR HTTPS URL>
   http_method: <INPUT THE HTTP METHOD>
